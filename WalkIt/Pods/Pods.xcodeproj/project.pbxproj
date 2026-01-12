@@ -1,0 +1,937 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		985ED89472B93FB310ED5E4DE7CE1E2D /* KakaoMapsSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 693D602A8BD8A2EE4C13C432BDE93DB0 /* Build configuration list for PBXAggregateTarget "KakaoMapsSDK" */;
+			buildPhases = (
+				073C38C133623D002C7A8970845DB3EE /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = KakaoMapsSDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		05BA0B070B87E67B72D4BBE749693B70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		472EBB9CAD53EF5C11D72C3E9A8F8953 /* Pods-WalkItTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD39C42A3C1BD2E75E0A3E2A10F8D26A /* Pods-WalkItTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FE9BA1B95F826EF8277272E05195742 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		71AF18EE77E65021508E0BF2506923F7 /* Pods-WalkIt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1045A428962B8801D012AC0982004871 /* Pods-WalkIt-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7884A0A632D2CFE7CC025FFD1A388D96 /* Pods-WalkIt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB763B502DBF9B8ACE0D92F2093931E /* Pods-WalkIt-dummy.m */; };
+		8FC0377B01BEACE8CD80BC056AD1F001 /* Pods-WalkIt-WalkItUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F168A374C2E26F1CC4B7D5CB07092CD /* Pods-WalkIt-WalkItUITests-dummy.m */; };
+		9EE3A47378BA8D2D2FA89B788658BF9E /* Pods-WalkItTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA2090F6FAC82273E6EB9DD8A4C9F6D /* Pods-WalkItTests-dummy.m */; };
+		CD84B8CA144F708BB191645DE56D05D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		FF12C6FFC4AB3F97D7C136C53095A7E8 /* Pods-WalkIt-WalkItUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 081534AC41D86D79CB979ECA9E07EE1B /* Pods-WalkIt-WalkItUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3007B8D91C085B84360469195079A228 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAF1ECE8CD46944B681F89EE0939ED38;
+			remoteInfo = "Pods-WalkIt";
+		};
+		873EE055287CF005724584D3A44F6C9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 985ED89472B93FB310ED5E4DE7CE1E2D;
+			remoteInfo = KakaoMapsSDK;
+		};
+		C89F8A4787AD8275AC8DBCBADDA93792 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 985ED89472B93FB310ED5E4DE7CE1E2D;
+			remoteInfo = KakaoMapsSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01962509A1048FDC373740F2577CFDA5 /* Pods-WalkIt-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WalkIt-acknowledgements.markdown"; sourceTree = "<group>"; };
+		07918F152A992B61B38E78CCD6D20C79 /* Pods-WalkIt-WalkItUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WalkIt-WalkItUITests-resources.sh"; sourceTree = "<group>"; };
+		081534AC41D86D79CB979ECA9E07EE1B /* Pods-WalkIt-WalkItUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WalkIt-WalkItUITests-umbrella.h"; sourceTree = "<group>"; };
+		0C6D72D2EB98441DBF00DE502DEFA3E1 /* Pods-WalkIt-WalkItUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WalkIt-WalkItUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0D13DBCDCD0BCA103A0A53FCC5D9AFEF /* KakaoMapsSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = KakaoMapsSDK.xcframework; sourceTree = "<group>"; };
+		1045A428962B8801D012AC0982004871 /* Pods-WalkIt-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WalkIt-umbrella.h"; sourceTree = "<group>"; };
+		2B6BEBAC9D8EFECA730967AA9CCB1C25 /* Pods-WalkItTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WalkItTests.release.xcconfig"; sourceTree = "<group>"; };
+		2EB516096153F991796A381CEB9BC7EF /* Pods-WalkIt */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WalkIt"; path = Pods_WalkIt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32C8FB948C619E6D9684A17ED47456EF /* Pods-WalkItTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WalkItTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3F168A374C2E26F1CC4B7D5CB07092CD /* Pods-WalkIt-WalkItUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WalkIt-WalkItUITests-dummy.m"; sourceTree = "<group>"; };
+		403EC49B3922C2DA21465B07981A1868 /* Pods-WalkItTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WalkItTests"; path = Pods_WalkItTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		431B8A83DD6741E131520C70943407ED /* Pods-WalkIt-WalkItUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WalkIt-WalkItUITests-frameworks.sh"; sourceTree = "<group>"; };
+		4B102171C2BCE5440483225DD2E9EDC7 /* KakaoMapsSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KakaoMapsSDK.debug.xcconfig; sourceTree = "<group>"; };
+		5CA9269B0C762AD5172F179871532109 /* Pods-WalkItTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WalkItTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F3E1E35BE577547E434B5DED2628893 /* KakaoMapsSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "KakaoMapsSDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		5FCFB5071402E134208E3829B9B884DC /* Pods-WalkIt-WalkItUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WalkIt-WalkItUITests.modulemap"; sourceTree = "<group>"; };
+		67D8DC84BBB6EBCED3E781C829631617 /* Pods-WalkIt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WalkIt.release.xcconfig"; sourceTree = "<group>"; };
+		7A50D55B0E28E100A98FA7EE90D7018C /* Pods-WalkItTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WalkItTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7BD8A914A20D5D117D02C3416B2F70EC /* KakaoMapsSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KakaoMapsSDK.release.xcconfig; sourceTree = "<group>"; };
+		8B18F46698EF697C0D9B82C72ECF3B9B /* Pods-WalkIt-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WalkIt-acknowledgements.plist"; sourceTree = "<group>"; };
+		910711BC5CD2E7AA1184196535B7E318 /* Pods-WalkIt-WalkItUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WalkIt-WalkItUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		92EDAAAD90461625437BEEEBD7ED5061 /* Pods-WalkIt-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WalkIt-frameworks.sh"; sourceTree = "<group>"; };
+		958F31F31A94D9833D6BE6C43E3880E4 /* Pods-WalkIt-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WalkIt-resources.sh"; sourceTree = "<group>"; };
+		9D14170F13A987E5F5F1A4859AEEE563 /* Pods-WalkIt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WalkIt.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A23353B3DA9F3EFFE69CFA2F307008DA /* Pods-WalkItTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WalkItTests-Info.plist"; sourceTree = "<group>"; };
+		A7B7EA5DAF0BABCFB2866E77F09269E3 /* Pods-WalkIt-WalkItUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WalkIt-WalkItUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AEB763B502DBF9B8ACE0D92F2093931E /* Pods-WalkIt-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WalkIt-dummy.m"; sourceTree = "<group>"; };
+		B30976A9C77CF5A408D575588EAD4F63 /* KakaoMapsSDKBundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = KakaoMapsSDKBundle.bundle; sourceTree = "<group>"; };
+		B3E841DFBC1BDE70CC0E0ADE9C1724F8 /* Pods-WalkIt-WalkItUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WalkIt-WalkItUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD39C42A3C1BD2E75E0A3E2A10F8D26A /* Pods-WalkItTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WalkItTests-umbrella.h"; sourceTree = "<group>"; };
+		D52E50216EF987C392920287ED691805 /* Pods-WalkIt-WalkItUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WalkIt-WalkItUITests"; path = Pods_WalkIt_WalkItUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD152FA3258FF3B5E46B79079EFCD381 /* Pods-WalkItTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WalkItTests.modulemap"; sourceTree = "<group>"; };
+		DD3E4ED749CA809A064D38BBED03ECF8 /* Pods-WalkIt-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WalkIt-Info.plist"; sourceTree = "<group>"; };
+		F62DE956CCF7D4D7957437167DE90D64 /* Pods-WalkIt.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WalkIt.modulemap"; sourceTree = "<group>"; };
+		FE44A89B7D7194CE0E63064A82CDB96C /* Pods-WalkIt-WalkItUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WalkIt-WalkItUITests-Info.plist"; sourceTree = "<group>"; };
+		FFA2090F6FAC82273E6EB9DD8A4C9F6D /* Pods-WalkItTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WalkItTests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A37960020B424D9FEFCB69BB58E3B73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05BA0B070B87E67B72D4BBE749693B70 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A76AEBD98FF9F3EE9E9A5C42DB8B710 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD84B8CA144F708BB191645DE56D05D6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3762712A7AD779026D536F019180889 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FE9BA1B95F826EF8277272E05195742 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B306C64DDF8C1FCAE40C4532E581C94 /* KakaoMapsSDK */ = {
+			isa = PBXGroup;
+			children = (
+				3A5933AA89E5EB256F926B5B2DB24E2F /* Frameworks */,
+				CF76BA71EB27D4D7D262E40C63BD9355 /* Resources */,
+				E9FCA6905C6CA97B331E7FF27D7966C0 /* Support Files */,
+			);
+			name = KakaoMapsSDK;
+			path = KakaoMapsSDK;
+			sourceTree = "<group>";
+		};
+		3A5933AA89E5EB256F926B5B2DB24E2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D13DBCDCD0BCA103A0A53FCC5D9AFEF /* KakaoMapsSDK.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3BF1C0259BAD5B6C5A54D3B141A583B2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE0D0844C05171E15E85429BF2AAAA32 /* Pods-WalkIt */,
+				52F414863E2BFB791AC98C08953D80B6 /* Pods-WalkIt-WalkItUITests */,
+				FCBA86B9A386C772804924A3093A0BFA /* Pods-WalkItTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		52F414863E2BFB791AC98C08953D80B6 /* Pods-WalkIt-WalkItUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5FCFB5071402E134208E3829B9B884DC /* Pods-WalkIt-WalkItUITests.modulemap */,
+				910711BC5CD2E7AA1184196535B7E318 /* Pods-WalkIt-WalkItUITests-acknowledgements.markdown */,
+				A7B7EA5DAF0BABCFB2866E77F09269E3 /* Pods-WalkIt-WalkItUITests-acknowledgements.plist */,
+				3F168A374C2E26F1CC4B7D5CB07092CD /* Pods-WalkIt-WalkItUITests-dummy.m */,
+				431B8A83DD6741E131520C70943407ED /* Pods-WalkIt-WalkItUITests-frameworks.sh */,
+				FE44A89B7D7194CE0E63064A82CDB96C /* Pods-WalkIt-WalkItUITests-Info.plist */,
+				07918F152A992B61B38E78CCD6D20C79 /* Pods-WalkIt-WalkItUITests-resources.sh */,
+				081534AC41D86D79CB979ECA9E07EE1B /* Pods-WalkIt-WalkItUITests-umbrella.h */,
+				B3E841DFBC1BDE70CC0E0ADE9C1724F8 /* Pods-WalkIt-WalkItUITests.debug.xcconfig */,
+				0C6D72D2EB98441DBF00DE502DEFA3E1 /* Pods-WalkIt-WalkItUITests.release.xcconfig */,
+			);
+			name = "Pods-WalkIt-WalkItUITests";
+			path = "Target Support Files/Pods-WalkIt-WalkItUITests";
+			sourceTree = "<group>";
+		};
+		81EF0C56DCDE1FBD6FB547E025240B9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EB516096153F991796A381CEB9BC7EF /* Pods-WalkIt */,
+				D52E50216EF987C392920287ED691805 /* Pods-WalkIt-WalkItUITests */,
+				403EC49B3922C2DA21465B07981A1868 /* Pods-WalkItTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2BBF15177A63BB5A9D7B61BA0B9028C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B306C64DDF8C1FCAE40C4532E581C94 /* KakaoMapsSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A2BBF15177A63BB5A9D7B61BA0B9028C /* Pods */,
+				81EF0C56DCDE1FBD6FB547E025240B9D /* Products */,
+				3BF1C0259BAD5B6C5A54D3B141A583B2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CF76BA71EB27D4D7D262E40C63BD9355 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B30976A9C77CF5A408D575588EAD4F63 /* KakaoMapsSDKBundle.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE0D0844C05171E15E85429BF2AAAA32 /* Pods-WalkIt */ = {
+			isa = PBXGroup;
+			children = (
+				F62DE956CCF7D4D7957437167DE90D64 /* Pods-WalkIt.modulemap */,
+				01962509A1048FDC373740F2577CFDA5 /* Pods-WalkIt-acknowledgements.markdown */,
+				8B18F46698EF697C0D9B82C72ECF3B9B /* Pods-WalkIt-acknowledgements.plist */,
+				AEB763B502DBF9B8ACE0D92F2093931E /* Pods-WalkIt-dummy.m */,
+				92EDAAAD90461625437BEEEBD7ED5061 /* Pods-WalkIt-frameworks.sh */,
+				DD3E4ED749CA809A064D38BBED03ECF8 /* Pods-WalkIt-Info.plist */,
+				958F31F31A94D9833D6BE6C43E3880E4 /* Pods-WalkIt-resources.sh */,
+				1045A428962B8801D012AC0982004871 /* Pods-WalkIt-umbrella.h */,
+				9D14170F13A987E5F5F1A4859AEEE563 /* Pods-WalkIt.debug.xcconfig */,
+				67D8DC84BBB6EBCED3E781C829631617 /* Pods-WalkIt.release.xcconfig */,
+			);
+			name = "Pods-WalkIt";
+			path = "Target Support Files/Pods-WalkIt";
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E9FCA6905C6CA97B331E7FF27D7966C0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F3E1E35BE577547E434B5DED2628893 /* KakaoMapsSDK-xcframeworks.sh */,
+				4B102171C2BCE5440483225DD2E9EDC7 /* KakaoMapsSDK.debug.xcconfig */,
+				7BD8A914A20D5D117D02C3416B2F70EC /* KakaoMapsSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KakaoMapsSDK";
+			sourceTree = "<group>";
+		};
+		FCBA86B9A386C772804924A3093A0BFA /* Pods-WalkItTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD152FA3258FF3B5E46B79079EFCD381 /* Pods-WalkItTests.modulemap */,
+				32C8FB948C619E6D9684A17ED47456EF /* Pods-WalkItTests-acknowledgements.markdown */,
+				7A50D55B0E28E100A98FA7EE90D7018C /* Pods-WalkItTests-acknowledgements.plist */,
+				FFA2090F6FAC82273E6EB9DD8A4C9F6D /* Pods-WalkItTests-dummy.m */,
+				A23353B3DA9F3EFFE69CFA2F307008DA /* Pods-WalkItTests-Info.plist */,
+				BD39C42A3C1BD2E75E0A3E2A10F8D26A /* Pods-WalkItTests-umbrella.h */,
+				5CA9269B0C762AD5172F179871532109 /* Pods-WalkItTests.debug.xcconfig */,
+				2B6BEBAC9D8EFECA730967AA9CCB1C25 /* Pods-WalkItTests.release.xcconfig */,
+			);
+			name = "Pods-WalkItTests";
+			path = "Target Support Files/Pods-WalkItTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		694F6BF2E98BB18C7B29233569CCC984 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71AF18EE77E65021508E0BF2506923F7 /* Pods-WalkIt-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78291796977803D842FFAFA70AB6DA3F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				472EBB9CAD53EF5C11D72C3E9A8F8953 /* Pods-WalkItTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA15A4BF8EE9E8375E185EAD8A1DD254 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF12C6FFC4AB3F97D7C136C53095A7E8 /* Pods-WalkIt-WalkItUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1E48076A72B9AD86C65AA692FE124CB8 /* Pods-WalkIt-WalkItUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14537451A9564ADA2244EAD6F974B80A /* Build configuration list for PBXNativeTarget "Pods-WalkIt-WalkItUITests" */;
+			buildPhases = (
+				BA15A4BF8EE9E8375E185EAD8A1DD254 /* Headers */,
+				7162CF670BB57C9625F8F8D3098F0CDC /* Sources */,
+				B3762712A7AD779026D536F019180889 /* Frameworks */,
+				2F350019EEDD6DFCE112F1D97E6826D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83D5778C4784AA253405D6AFB11D3202 /* PBXTargetDependency */,
+			);
+			name = "Pods-WalkIt-WalkItUITests";
+			productName = Pods_WalkIt_WalkItUITests;
+			productReference = D52E50216EF987C392920287ED691805 /* Pods-WalkIt-WalkItUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		BAF1ECE8CD46944B681F89EE0939ED38 /* Pods-WalkIt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B41E7B70BBF11E3FA611CADE4E5AF4D /* Build configuration list for PBXNativeTarget "Pods-WalkIt" */;
+			buildPhases = (
+				694F6BF2E98BB18C7B29233569CCC984 /* Headers */,
+				66035B4A859427EFFFC0D35A874337A5 /* Sources */,
+				0A37960020B424D9FEFCB69BB58E3B73 /* Frameworks */,
+				B5D14D69D2BAE4370DFEBF19A6D46355 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0B5B5664BF8BD7238B0B258B44FF438 /* PBXTargetDependency */,
+			);
+			name = "Pods-WalkIt";
+			productName = Pods_WalkIt;
+			productReference = 2EB516096153F991796A381CEB9BC7EF /* Pods-WalkIt */;
+			productType = "com.apple.product-type.framework";
+		};
+		D2161B87D0FBCAB7FEC0D96E790AC9DD /* Pods-WalkItTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB3A99328C19B14FBCCFAE6769FFFD97 /* Build configuration list for PBXNativeTarget "Pods-WalkItTests" */;
+			buildPhases = (
+				78291796977803D842FFAFA70AB6DA3F /* Headers */,
+				13332C2015B4B1B926AF09E8C3397977 /* Sources */,
+				7A76AEBD98FF9F3EE9E9A5C42DB8B710 /* Frameworks */,
+				A1B0414B32C80A38ED0959475ED54F71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E44DFF9FF5D01D54011E550A616B238E /* PBXTargetDependency */,
+			);
+			name = "Pods-WalkItTests";
+			productName = Pods_WalkItTests;
+			productReference = 403EC49B3922C2DA21465B07981A1868 /* Pods-WalkItTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 81EF0C56DCDE1FBD6FB547E025240B9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				985ED89472B93FB310ED5E4DE7CE1E2D /* KakaoMapsSDK */,
+				BAF1ECE8CD46944B681F89EE0939ED38 /* Pods-WalkIt */,
+				1E48076A72B9AD86C65AA692FE124CB8 /* Pods-WalkIt-WalkItUITests */,
+				D2161B87D0FBCAB7FEC0D96E790AC9DD /* Pods-WalkItTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F350019EEDD6DFCE112F1D97E6826D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B0414B32C80A38ED0959475ED54F71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5D14D69D2BAE4370DFEBF19A6D46355 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		073C38C133623D002C7A8970845DB3EE /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/KakaoMapsSDK/KakaoMapsSDK-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/KakaoMapsSDK/KakaoMapsSDK-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/KakaoMapsSDK/KakaoMapsSDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13332C2015B4B1B926AF09E8C3397977 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EE3A47378BA8D2D2FA89B788658BF9E /* Pods-WalkItTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66035B4A859427EFFFC0D35A874337A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7884A0A632D2CFE7CC025FFD1A388D96 /* Pods-WalkIt-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7162CF670BB57C9625F8F8D3098F0CDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FC0377B01BEACE8CD80BC056AD1F001 /* Pods-WalkIt-WalkItUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83D5778C4784AA253405D6AFB11D3202 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KakaoMapsSDK;
+			target = 985ED89472B93FB310ED5E4DE7CE1E2D /* KakaoMapsSDK */;
+			targetProxy = C89F8A4787AD8275AC8DBCBADDA93792 /* PBXContainerItemProxy */;
+		};
+		D0B5B5664BF8BD7238B0B258B44FF438 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KakaoMapsSDK;
+			target = 985ED89472B93FB310ED5E4DE7CE1E2D /* KakaoMapsSDK */;
+			targetProxy = 873EE055287CF005724584D3A44F6C9C /* PBXContainerItemProxy */;
+		};
+		E44DFF9FF5D01D54011E550A616B238E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WalkIt";
+			target = BAF1ECE8CD46944B681F89EE0939ED38 /* Pods-WalkIt */;
+			targetProxy = 3007B8D91C085B84360469195079A228 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1AA734E040D30CB2D845E76D32627C99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CA9269B0C762AD5172F179871532109 /* Pods-WalkItTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-WalkItTests/Pods-WalkItTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WalkItTests/Pods-WalkItTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2E2D91BF00A026E1DC0CC979AF4481A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C6D72D2EB98441DBF00DE502DEFA3E1 /* Pods-WalkIt-WalkItUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-WalkIt-WalkItUITests/Pods-WalkIt-WalkItUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WalkIt-WalkItUITests/Pods-WalkIt-WalkItUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5321597DAE4FD25E6759E56615784AD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67D8DC84BBB6EBCED3E781C829631617 /* Pods-WalkIt.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-WalkIt/Pods-WalkIt-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WalkIt/Pods-WalkIt.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5876BC591E4F40CF5CC922202FF9E394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		677057429322218238929B656FFC1AC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B102171C2BCE5440483225DD2E9EDC7 /* KakaoMapsSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77C36D350519E63D5863A880C8EA7A4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B6BEBAC9D8EFECA730967AA9CCB1C25 /* Pods-WalkItTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-WalkItTests/Pods-WalkItTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WalkItTests/Pods-WalkItTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9375AAEF3A5F8BE1C624C20E0F54BDBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3E841DFBC1BDE70CC0E0ADE9C1724F8 /* Pods-WalkIt-WalkItUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-WalkIt-WalkItUITests/Pods-WalkIt-WalkItUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WalkIt-WalkItUITests/Pods-WalkIt-WalkItUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A73BA2715348EC23EBEED4F321FBFB66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D14170F13A987E5F5F1A4859AEEE563 /* Pods-WalkIt.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-WalkIt/Pods-WalkIt-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WalkIt/Pods-WalkIt.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D00E4F218292A7B18E4F23A9AF7529F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F42163899F37B6A6DE496DA5DE8E9B7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BD8A914A20D5D117D02C3416B2F70EC /* KakaoMapsSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14537451A9564ADA2244EAD6F974B80A /* Build configuration list for PBXNativeTarget "Pods-WalkIt-WalkItUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9375AAEF3A5F8BE1C624C20E0F54BDBB /* Debug */,
+				2E2D91BF00A026E1DC0CC979AF4481A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B41E7B70BBF11E3FA611CADE4E5AF4D /* Build configuration list for PBXNativeTarget "Pods-WalkIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A73BA2715348EC23EBEED4F321FBFB66 /* Debug */,
+				5321597DAE4FD25E6759E56615784AD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5876BC591E4F40CF5CC922202FF9E394 /* Debug */,
+				D00E4F218292A7B18E4F23A9AF7529F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		693D602A8BD8A2EE4C13C432BDE93DB0 /* Build configuration list for PBXAggregateTarget "KakaoMapsSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				677057429322218238929B656FFC1AC7 /* Debug */,
+				F42163899F37B6A6DE496DA5DE8E9B7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB3A99328C19B14FBCCFAE6769FFFD97 /* Build configuration list for PBXNativeTarget "Pods-WalkItTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AA734E040D30CB2D845E76D32627C99 /* Debug */,
+				77C36D350519E63D5863A880C8EA7A4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
